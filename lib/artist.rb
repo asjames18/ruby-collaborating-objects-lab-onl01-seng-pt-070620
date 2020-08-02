@@ -21,7 +21,7 @@ end
 def songs
   @songs
 
-binding.pry
+# binding.pry
 end
 
 def self.find_or_create_by_name(name)
@@ -36,13 +36,14 @@ def self.create(name)
   artist = self.new(name)
   artist.name = name
   artist
+  binding.pry
+
 end
 
 def print_songs
   songs.each { |song|
     puts song.name}
 
-  binding.pry
 end
 
 
