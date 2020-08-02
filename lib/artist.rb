@@ -14,7 +14,7 @@ def self.all
   @@all
 end
 def add_song(song)
-  self.song = song_one && song_two
+  ssong = song_one && song_two
 
 end
 
