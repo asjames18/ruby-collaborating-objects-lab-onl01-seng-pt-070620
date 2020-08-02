@@ -13,5 +13,9 @@ def self.all
   @@all
 end
 
+def add_song(song_one)
+
+end
+
 
 end
