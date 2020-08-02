@@ -16,7 +16,7 @@ end
 def add_song(song)
   song << song_two
 
-  binding.pry
+  # binding.pry
 end
 
 
