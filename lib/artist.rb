@@ -21,7 +21,7 @@ end
 def songs
   @songs
 
-# binding.pry
+binding.pry
 end
 
 def self.find_or_create_by_name(name)
