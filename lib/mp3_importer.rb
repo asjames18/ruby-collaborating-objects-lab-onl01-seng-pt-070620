@@ -6,8 +6,16 @@ class MP3Importer
     @path = path
   end
 
+  # def files
+  #   @files
+  # 
+  # end
   def files
-    @files
+  @files ||= Dir.entries(@path).select {|song| !File.directory?(song) && song.end_with?(".mp3")}
+end
 
-  end
+def import
+  files.each {|song| Song.new_by_filename(song)}
+end
+
 end
