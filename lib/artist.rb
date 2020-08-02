@@ -39,4 +39,7 @@ def self.create(name)
   artist
 end
 
+def print_songs
+end
+
 end
