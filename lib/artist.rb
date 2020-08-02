@@ -1,3 +1,4 @@
+
 class Artist
 
   @@all = []
@@ -13,7 +14,7 @@ def self.all
   @@all
 end
 def add_song(song)
-  self.song 
+  self.song = song_one && song_two
 
 end
 
