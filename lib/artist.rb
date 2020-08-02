@@ -3,7 +3,7 @@ class Artist
 
   @@all = []
 
-attr_accessor :name
+attr_accessor :name :artitt
 
 def initialize (name)
   @name = name
