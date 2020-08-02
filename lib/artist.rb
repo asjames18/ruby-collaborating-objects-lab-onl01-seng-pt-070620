@@ -18,5 +18,7 @@ def add_song(song)
 
 end
 
+def song
+
 
 end
