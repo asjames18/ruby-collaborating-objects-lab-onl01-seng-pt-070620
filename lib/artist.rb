@@ -34,6 +34,10 @@ def self.find(name)
 end
 
 def self.create(name)
+  artist = self.new(name)
+  artist.name = name
+  artist
+
 
 end
 
