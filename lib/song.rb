@@ -10,8 +10,8 @@ class Song
 
   end
 
-def self.all
-  @@all
+def 
+  
 end
 
 
