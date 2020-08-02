@@ -40,6 +40,8 @@ def self.create(name)
 end
 
 def print_songs
+  self.print
 end
+
 
 end
