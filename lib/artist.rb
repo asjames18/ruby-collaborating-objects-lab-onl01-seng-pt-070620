@@ -14,7 +14,6 @@ def self.all
   @@all
 end
 def add_song(song)
-  self.songs.name
 
   # binding.pry
 end
