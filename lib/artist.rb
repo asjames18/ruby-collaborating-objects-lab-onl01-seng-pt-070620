@@ -18,5 +18,9 @@ def add_song(song)
   # binding.pry
 end
 
+def songs
+  @songs
+end
+
 
 end
